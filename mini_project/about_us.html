@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us page</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 0px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <font size="4"<p>We are the undergraduate students from RGUKT BASAR.
+    <br><br>
+  We designed this website to provide information to choose their career path for their future after tenth</p></font>
+</div>
+<div class="about-me">
+      <div class="about-me-text">
+        <h2>UNDER THE GUIDANCE OF</h2>
+        <p>Mr.k.Ravikanth<br>
+         Assistant Professor<br>
+       Department of CSE,RGUKT BASAR</p>
+      </div><hr>
+      <img align="right" src="ravikanthsir.jpg" width="20%" height="300px">
+    </div>
+
+<h2 style="text-align:center"><font size="5">Our Team</h2></font>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <br>
+      <center><a href=shriya.jpeg><img src="shriya2.jpeg" alt="Jane" style="width:40%"></center></a>
+      <div class="container">
+        <center>
+        <b><h2>Gopu Shriya</h2>
+        <p class="title">I am a web developer and I love to create 
+        websites. I am a very good developer and    I am always looking for new projects.</p>
+        <center>
+        <p>Contact no:9014363763</p>
+        <p>E-mail id:b171215@rgukt.ac.in</p></center>
+      </center>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <br>
+      <center><img src="vyju.jpeg" alt="Jane" style="width:25%"></center>
+      <div class="container">
+        <center>
+        <h2>Lavudya Vyjayanthi</h2>
+        <p class="title">Iam a web developer</p>
+        <p>Contact no:7995291402</p>
+        <p>E-mail id:b171978@rgukt.ac.in</p>
+      </center></b>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+      <br>
+      <center><img src="sahaja.jpeg" alt="Jane" style="width:25%"></center>
+      <div class="container">
+        <center><b>
+        <h2>Kunala Sahaja</h2>
+        <p class="title">Iam a web developer</p>
+        <p>Contact no:9121616048</p>
+        <p>E-mail id:b171448@rgukt.ac.in</p></b>
+      </center>
+      </div>
+    </div>
+  </div>
+  
+  
+
+</body>
+</html>
